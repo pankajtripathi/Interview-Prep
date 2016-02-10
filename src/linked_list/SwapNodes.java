@@ -3,7 +3,6 @@ package linked_list;
 public class SwapNodes {
 
 	static Node head=null;
-	static Node curr,prev;
 	/**
 	 * Append the node at start if there is no existing node.
 	 * else traverse to the end of the list and add a new node.
