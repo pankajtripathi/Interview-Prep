@@ -2,6 +2,9 @@ package searching;
 
 import java.util.Scanner;
 
+/**
+ * @author pankajtripathi
+ * */
 public class Binary_Search {
 
 	public static int binary_search(int a[],int num, int low, int high){

@@ -1,10 +1,11 @@
 package queue;
 
+/**
+ * @author pankajtripathi
+ * */
 public class Queue_Array_Demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		Queue_Array obj=new Queue_Array();
 
 		obj.insert(23);

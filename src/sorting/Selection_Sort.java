@@ -1,5 +1,8 @@
 package sorting;
 
+/**
+ * @author pankajtripathi
+ * */
 public class Selection_Sort {
 	public static void main(String args[]){
 		int a[]={64,25,12,22,11};

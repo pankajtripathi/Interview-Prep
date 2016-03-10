@@ -1,5 +1,8 @@
 package stack;
 
+/**
+ * @author pankajtripathi
+ * */
 public class Stack_Op_Demo {
 
 	public static void main(String[] args) {

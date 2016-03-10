@@ -1,5 +1,8 @@
 package sorting;
 
+/**
+ * @author pankajtripathi
+ * */
 public class Bubble_Sort {
 	public static void main(String args[]){
 		int a[]={65,25,12,22,11};

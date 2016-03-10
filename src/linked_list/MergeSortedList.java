@@ -3,6 +3,9 @@ package linked_list;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * @author pankajtripathi
+ * */
 public class MergeSortedList {
 	public static void main(String[] args) {
 		List<Integer> list1=new LinkedList<>();

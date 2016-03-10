@@ -1,5 +1,8 @@
 package queue;
 
+/**
+ * @author pankajtripathi
+ * */
 public class Queue_LL {
 
 	Node front,rear;

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * @author pankajtripathi
+ * Get the Occurrences of all the digits in a number and print the one with the most occurrences
  */
 public class Occurrences {
     static long occurrence(long n,long i){

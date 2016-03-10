@@ -1,5 +1,8 @@
 package linked_list;
 
+/**
+ * @author pankajtripathi
+ * */
 public class SwapNodes {
 
 	static Node head=null;

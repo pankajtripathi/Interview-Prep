@@ -1,8 +1,9 @@
 package searching;
 
 import java.util.Scanner;
-
-
+/**
+ * @author pankajtripathi
+ * */
 public class Linear_Search {
 
 	public static void liner_search(int a[],int num){

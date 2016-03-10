@@ -2,6 +2,9 @@ package sorting;
 
 import java.util.Scanner;
 
+/**
+ * @author pankajtripathi
+ * */
 public class Quick_Sort {
 
 	public static void sort(int a[]){

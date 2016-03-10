@@ -1,7 +1,8 @@
 package sorting;
 
-import java.util.Scanner;
-
+/**
+ * @author pankajtripathi
+ * */
 public class Heap_Sort {
 
 	private static int N;

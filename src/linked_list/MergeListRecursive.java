@@ -1,6 +1,9 @@
 package linked_list;
 
-public class Solution {
+/**
+ * @author pankajtripathi
+ * */
+public class MergeListRecursive {
 	public Node mergeTwoLists(Node l1, Node l2) {
 		if(l1==null) return l2;
 		if(l2==null) return l1;

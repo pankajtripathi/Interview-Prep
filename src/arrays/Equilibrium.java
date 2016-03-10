@@ -1,6 +1,7 @@
 package arrays;
 
 /**
+ * @author pankajtripathi
  * Get the index of array where the sum of numbers on right of index is equal to sum of numbers on left.
  * */
 public class Equilibrium {

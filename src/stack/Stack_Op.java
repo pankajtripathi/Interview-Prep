@@ -2,6 +2,9 @@ package stack;
 
 import java.util.Scanner;
 
+/**
+ * @author pankajtripathi
+ * */
 public class Stack_Op {
 
 	int max,top;

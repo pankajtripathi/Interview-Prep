@@ -1,5 +1,8 @@
 package stack;
 
+/**
+ * @author pankajtripathi
+ * */
 public class Stack_LL {
 
 	static Node top;
