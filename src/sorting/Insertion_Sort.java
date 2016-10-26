@@ -3,7 +3,7 @@ package sorting;
 /**
  * @author pankajtripathi
  * */
-public class InsertionSort{
+public class Insertion_Sort{
     public static void sort(int a[], int n){
         for(int i=1; i<=n-1; i++){
             int val = a[i];
@@ -19,7 +19,7 @@ public class InsertionSort{
     }
     
     public static void main(String args[]){
-        InsertionSort obj = new InsertionSort();
+        Insertion_Sort obj = new Insertion_Sort();
         int a[] = {7, 1, 3, 9, 2, 12};
         obj.sort(a, a.length);
         for (int i=0;i<a.length; i++){
