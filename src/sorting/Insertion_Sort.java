@@ -3,24 +3,27 @@ package sorting;
 /**
  * @author pankajtripathi
  * */
-public class Insertion_Sort {
-
-	public static void main(String args[]){
-		int a[]={65,25,12,22,11};
-		int val;
-		for(int i=1;i<a.length;i++)
-		{   
-			int j;
-			val=a[i];
-			for(j=i-1;j>=0&&a[j]>val;j--)
-				a[j+1]=a[j];
-
-			a[j+1]=val;
-
-			for(int k=0;k<a.length;k++)
-				System.out.print(a[k]+" ");
-			System.out.println("");
-		}
-
-	}
+public class InsertionSort{
+    public static void sort(int a[], int n){
+        for(int i=1; i<=n-1; i++){
+            int val = a[i];
+            int hole = i;
+            
+            while(hole > 0 && a[hole-1] > val){
+                a[hole] = a[hole-1];
+                hole = hole - 1;
+            }
+            
+            a[hole] = val;
+        }
+    }
+    
+    public static void main(String args[]){
+        InsertionSort obj = new InsertionSort();
+        int a[] = {7, 1, 3, 9, 2, 12};
+        obj.sort(a, a.length);
+        for (int i=0;i<a.length; i++){
+            System.out.print(a[i] + " ");
+        } 
+    }
 }
