@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author pankajtripathi
  * */
-public class QuickSort{
+public class Quick_Sort{
     public static void sort(int a[], int low, int high){
         if(a.length == 0 || a.length == 1) return;
         if(low > high) return;
@@ -38,7 +38,7 @@ public class QuickSort{
     }
     
     public static void main(String args[]){
-        QuickSort obj = new QuickSort();
+        Quick_Sort obj = new Quick_Sort();
         int a[] = {7, 1, 3, 9, 2, 12};
         obj.sort(a, 0, a.length-1);
         
